@@ -12,7 +12,6 @@ return {
         mason_lsp.setup({
             ensure_installed = {
                 'ts_ls',
-                'pyright',
                 'html',
                 'cssls',
                 'tailwindcss'

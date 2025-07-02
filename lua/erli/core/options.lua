@@ -51,5 +51,5 @@ local opt = vim.opt
 opt.relativenumber = true
 opt.number = true
 
-
+vim.g.python3_host_prog = '/opt/homebrew/bin/python3'
 
