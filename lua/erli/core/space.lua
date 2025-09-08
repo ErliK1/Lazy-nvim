@@ -11,7 +11,7 @@ local set_indent = function(ft, tabstop, shiftwidth, expandtab)
 end
 
 -- TypeScript & JavaScript: 2 spaces
-set_indent({ "typescript", "typescriptreact", "javascript", "javascriptreact" }, 2, 2, true)
+set_indent({ "typescript", "typescriptreact", "javascript", "javascriptreact", "json" }, 2, 2, true)
 
 -- Python: 4 spaces
 set_indent("python", 4, 4, true)
