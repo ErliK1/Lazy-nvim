@@ -7,6 +7,6 @@ end
 
 vim.schedule(
     function ()
-        find_cholorscheme(4)
+        find_cholorscheme(2)
     end
 )

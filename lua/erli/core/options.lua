@@ -9,6 +9,7 @@ vim.opt.autowrite = true
 vim.opt.cursorline = true
 vim.opt.autoread = true
 vim.opt.wrap = false
+vim.opt.guicursor = ""
 
 
 -- use spaces for tabs and whatnot
@@ -52,4 +53,4 @@ opt.relativenumber = true
 opt.number = true
 
 vim.g.python3_host_prog = '/opt/homebrew/bin/python3'
-
+vim.keymap.set({ 'n', 'x' }, 's', '<Nop>', { noremap = true, silent = true })
